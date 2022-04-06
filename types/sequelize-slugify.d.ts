@@ -15,7 +15,7 @@ interface Options {
   slugOptions?: SlugOptions;
   overwrite?: boolean;
   column?: string;
-  target?: string;
+  lang?: string;
   incrementalSeparator?: string;
   passTransaction?: boolean;
   paranoid?: boolean;
