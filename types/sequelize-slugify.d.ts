@@ -1,27 +1,27 @@
-import {Model} from "sequelize";
+import { Model } from 'sequelize';
 
 interface SlugOptions {
-    replacement?: string;
-    replaceSymbols?: boolean;
-    remove?: boolean;
-    lower?: boolean;
-    charmap?: object;
-    multicharmap?: object;
+  replacement?: string;
+  replaceSymbols?: boolean;
+  remove?: boolean;
+  lower?: boolean;
+  charmap?: object;
+  multicharmap?: object;
 }
 
 interface Options {
-    source: string[];
-    suffixSource?: string[];
-    slugOptions?: SlugOptions;
-    overwrite?: boolean;
-    column?: string;
-    incrementalSeparator?: string;
-    passTransaction?: boolean;
-    paranoid?: boolean;
+  source: string[];
+  suffixSource?: string[];
+  slugOptions?: SlugOptions;
+  overwrite?: boolean;
+  column?: string;
+  incrementalSeparator?: string;
+  passTransaction?: boolean;
+  paranoid?: boolean;
 }
 
 declare const _exports: SequelizeSlugify;
 export = _exports;
 declare class SequelizeSlugify {
-    slugifyModel(model: Model, options: Options): void;
+  slugifyModel(model: Model, options: Options): void;
 }
