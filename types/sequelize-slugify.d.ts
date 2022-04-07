@@ -20,6 +20,7 @@ interface Options {
   incrementalSeparator?: string;
   passTransaction?: boolean;
   paranoid?: boolean;
+  allowNull?: boolean;
 }
 
 declare const _exports: SequelizeSlugify;
