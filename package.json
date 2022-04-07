@@ -24,7 +24,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@lucassimines/sequelize-slugify2": "1.6.0",
     "sluglife": "^0.9.8"
   },
   "files": [
