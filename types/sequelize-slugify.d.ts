@@ -16,6 +16,7 @@ interface Options {
   overwrite?: boolean;
   column?: string;
   lang?: string;
+  bulkUpdate?: boolean;
   incrementalSeparator?: string;
   passTransaction?: boolean;
   paranoid?: boolean;
