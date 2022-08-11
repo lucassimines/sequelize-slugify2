@@ -1,4 +1,4 @@
-import { Model } from 'sequelize';
+import { Model, ModelStatic } from 'sequelize';
 
 interface SlugOptions {
   replacement?: string;
@@ -26,5 +26,5 @@ interface Options {
 declare const _exports: SequelizeSlugify;
 export = _exports;
 declare class SequelizeSlugify {
-  slugifyModel(model: Model, options: Options): void;
+  slugifyModel<M extends Model>(model: ModelStatic<M>, options: Options): void;
 }
