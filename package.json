@@ -1,7 +1,7 @@
 {
   "name": "@lucassimines/sequelize-slugify2",
   "description": "Add slugs to sequelize models",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "author": {
     "name": "Jarrod Connolly",
     "email": "jarrod@nestedquotes.ca"
